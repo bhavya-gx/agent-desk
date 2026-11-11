@@ -32,10 +32,10 @@ for paragraph in (ROOT / "docs/brand.md").read_text().strip().split("\n\n"):
         doc.add_paragraph(paragraph[3:], "Heading 1")
     else:
         doc.add_paragraph(paragraph)
-doc.core_properties.title = "AgentsByBrand brand overview"
+doc.core_properties.title = "Agent Desk brand overview"
 doc.core_properties.subject = "Brand positioning, audience, language, and first release"
-doc.core_properties.author = "Brand Agent Workspace contributors"
-doc.core_properties.last_modified_by = "Brand Agent Workspace contributors"
+doc.core_properties.author = "Agent Desk contributors"
+doc.core_properties.last_modified_by = "Agent Desk contributors"
 for root in (doc.styles.element, doc.element):
     for border in root.xpath(".//w:pBdr"):
         border.getparent().remove(border)

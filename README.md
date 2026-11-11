@@ -1,8 +1,8 @@
-# Brand Agent Workspace
+# Agent Desk
 
-An open-source workspace for coordinating AI agents across brands, contacts, accounts, and task history.
+**The agent workspace for brands.** An open-source workspace for coordinating AI agents across brands, contacts, accounts, and task history.
 
-**Status: working local pilot, not a production SaaS. Product name pending.** This repository was public before implementation began. **AgentsByBrand** is the current naming recommendation.
+**Status: working local pilot, not a production SaaS.** This MIT repository was public before implementation began. The owner selected Agent Desk on November 11, 2026.
 
 ## What works now
 
@@ -43,10 +43,11 @@ The suite covers brand/account boundaries, ownership, concurrent claims, review 
 - [How it works](docs/architecture.md): data flow, access boundaries, and limitations.
 - [Setup](docs/setup.md): local service, private configuration, and agent connections.
 - [One-page brand document](docs/brand-one-page.docx) and [editable text](docs/brand.md).
-- [Five names and competitor comparison](docs/naming.md).
+- [Naming decision and competitor comparison](docs/naming.md).
+- [Three product concepts](docs/product-concepts.md): adaptations of reported operator problems, with sources and validation plans.
 - [Roadmap](docs/roadmap.md): what is shipped and what comes next.
 - [License](LICENSE): MIT permission to use, modify, and share the code.
 
 No client records, credentials, or private chat histories belong in this repository.
 
-Independent project; not affiliated with Paperclip or Anthropic.
+Independent project; not affiliated with Paperclip, Anthropic, or the separate [Agent Desk configuration manager](https://agentdesk.sh/). See the [naming note](docs/naming.md).

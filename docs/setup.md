@@ -5,8 +5,8 @@
 Use Python 3.11 or newer. The application has no third-party runtime dependencies.
 
 ```bash
-git clone https://github.com/bhavya-gx/brand-agent-workspace.git
-cd brand-agent-workspace
+git clone https://github.com/bhavya-gx/agent-desk.git
+cd agent-desk
 python3 -m app.server init
 python3 -m app.server token
 python3 -m app.server serve

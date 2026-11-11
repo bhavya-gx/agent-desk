@@ -1,6 +1,6 @@
-# AgentsByBrand brand overview
+# Agent Desk brand overview
 
-AgentsByBrand is an open-source workspace for people running AI agents across multiple brands. It keeps each task connected to the right brand voice, contact, audience profile, account reference, and work history, so the next agent can continue with the context it needs.
+The agent workspace for brands. Agent Desk is an open-source workspace for people running AI agents across multiple brands. It keeps each task connected to the right brand voice, contact, audience profile, account reference, and work history, so the next agent can continue with the context it needs.
 
 ## Who it serves
 

@@ -33,3 +33,13 @@ Revised the shortlist after the owner requested Agent/Agentic names. Recommended
 ## Publication review
 
 Rendered and visually inspected the Word brief, confirmed it is one page, and removed an inherited title border. Checked every Markdown file link and ensured all 28 public files appear in the project map. Scanned the public files against the generated local tokens; no matches were found. Formatted the browser source with Prettier 3.6.2 for readability. The local database, tokens, render intermediates, and outer chat workspace are excluded from the commit.
+
+## 2026-11-11 — Agent Desk selected
+
+Applied the owner's chosen product name, Agent Desk, to the browser title, sign-in label, wordmark, README, brand source, Word generator, package description, skill description, and license attribution. Renamed the public GitHub repository to `bhavya-gx/agent-desk` and updated the clone instructions and local Git remote. Kept the local directory, skill identifier, and environment variables stable so existing paths and setup continue to work.
+
+Recorded that a separate open-source configuration manager already uses the Agent Desk name. Added an independence note and the descriptor “The agent workspace for brands.” Updated the naming decision while retaining the original shortlist as history.
+
+Added `docs/product-concepts.md` with three proposals: Client Desks, Results Inbox, and Work-triggered Agents. Each has a public evidence link, a specific operator workflow, the pilot's existing coverage, missing work, and a validation plan. Distinguished individual Paperclip reports from proven product-wide limitations; Roma and Retinue documentation is not represented as customer complaints. Linked the concepts from the README and roadmap and added the new file to the project map. No proposed execution features were implemented in this naming/research update.
+
+Verification: all 22 existing tests passed. Rebuilt the editable Word brief, rendered and visually inspected its single page. Reloaded the local browser app and verified the Agent Desk title and wordmark with the existing fictional task still present.

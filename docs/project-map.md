@@ -67,7 +67,8 @@ This is the owner's guide to the repository. A **repository** is the project plu
 | `docs/roadmap.md` | Separates shipped behavior from the next milestones. |
 | `docs/brand.md` | Editable source of the one-page brand brief. |
 | `docs/brand-one-page.docx` | The formatted Word brand brief, generated from `brand.md`. |
-| `docs/naming.md` | Five Agent/Agentic names, tradeoffs, recommendation, and comparison with Paperclip, Retinue, and Roma. |
+| `docs/naming.md` | The selected Agent Desk name, earlier shortlist, competitor comparison, and an existing-name collision. |
+| `docs/product-concepts.md` | Three proposed product adaptations, the operator reports behind them, current pilot coverage, and ways to validate each concept. |
 | `scripts/build_brand_doc.py` | Converts the brand Markdown paragraphs into a formatted Word document. Run after installing `requirements-docs.txt`. |
 
 ## Private generated files
@@ -77,3 +78,5 @@ This is the owner's guide to the repository. A **repository** is the project plu
 ## The outer chat workspace
 
 The `outputs/brand-agent-workspace/` folder is this repository. The surrounding chat's `work/` folder contains temporary rendering and verification files. These are outside the repository. The surrounding `outputs/` folder can also hold a preview screenshot. Only reviewed project files are committed; the outer chat workspace is not pushed.
+
+The local folder keeps its original name to preserve existing paths. The public repository is `bhavya-gx/agent-desk`. The skill folder and environment variables also retain their original technical names so existing setup commands keep working.

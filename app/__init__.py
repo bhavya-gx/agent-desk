@@ -1,1 +1,1 @@
-"""Brand Agent Workspace: local context and task coordination."""
+"""Agent Desk: local context and task coordination for brands."""

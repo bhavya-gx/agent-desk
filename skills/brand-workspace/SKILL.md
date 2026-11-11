@@ -1,9 +1,9 @@
 ---
 name: brand-workspace
-description: Coordinate brand-specific client tasks in Brand Agent Workspace. Use when creating, resuming, reviewing, or handing off work that needs the correct brand voice, contact, audience profile, account reference, and task history.
+description: Coordinate brand-specific client tasks in Agent Desk. Use when creating, resuming, reviewing, or handing off work that needs the correct brand voice, contact, audience profile, account reference, and task history.
 ---
 
-# Brand workspace
+# Agent Desk
 
 Use the workspace service as the source of task ownership and history. The helper at `scripts/workspace.py` is self-contained and uses Python 3.11 or newer. It reads `WORKSPACE_URL` (default `http://127.0.0.1:4317`) and `WORKSPACE_TOKEN` from the environment. A skill cannot access other chats or accounts automatically.
 

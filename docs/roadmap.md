@@ -8,6 +8,10 @@ Public MIT repository, browser board, fictional two-brand configuration, persist
 
 Connect one separately configured Paperclip instance to a fictional brand; verify real API permissions, task creation, the intended agent wake, completed output, and cost reporting. Add a tested return path and owner-controlled reconciliation before relying on remote execution. The current connector has not been verified against a live instance.
 
+## Proposed product direction
+
+The [three researched concepts](product-concepts.md) are Client Desks, Results Inbox, and Work-triggered Agents. Lead positioning with brand-specific working memory. Build reliable result return and recovery before relying on live execution, then evaluate context and execution costs. These are proposed extensions, not features already shipped.
+
 ## Next usability milestone
 
 Add brand, contact, account, and agent editing with versioned configuration. Preserve historical task snapshots. Add task dependencies and a research-to-writing handoff with separate capabilities. Add search and a workspace-wide owner view.
