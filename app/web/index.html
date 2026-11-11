@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Brand Agent Workspace</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body>
+    <div id="login-view" class="login-wrap">
+      <form id="login-form" class="login-card">
+        <span class="eyebrow">OPEN SOURCE · LOCAL WORKSPACE</span>
+        <h1>Every brand.<br />Its own context.</h1>
+        <p>
+          One place for your agents, contacts, accounts, and the work between
+          them.
+        </p>
+        <label for="token">Workspace owner token</label>
+        <input id="token" type="password" autocomplete="off" required />
+        <p class="hint">
+          Get your token locally with <code>python3 -m app.server token</code>.
+        </p>
+        <button type="submit">Open workspace →</button>
+      </form>
+    </div>
+    <div id="workspace" hidden>
+      <aside class="sidebar">
+        <a class="wordmark" href="/"
+          >brand<span>workspace</span
+          ><small>AGENTS & CLIENT OPERATIONS</small></a
+        >
+        <div class="sidebar-label">YOUR BRANDS</div>
+        <nav id="brand-nav" aria-label="Brands"></nav>
+        <div class="sidebar-footer">
+          <span class="status-dot"></span> Running on your machine
+          <p>Prototype 0.1 · MIT licensed</p>
+          <button id="logout" class="text-button">Sign out</button>
+        </div>
+      </aside>
+      <main>
+        <header>
+          <div>
+            <span class="eyebrow"
+              >WORKSPACE / <span id="brand-eyebrow"></span
+            ></span>
+            <h1 id="brand-title"></h1>
+            <p id="brand-voice" class="subtitle"></p>
+          </div>
+          <button id="new-task">+ New task</button>
+        </header>
+        <section class="stats" aria-label="Brand overview">
+          <div><strong id="task-count">0</strong><span>Tasks</span></div>
+          <div><strong id="agent-count">0</strong><span>Agents</span></div>
+          <div><strong id="contact-count">0</strong><span>Contacts</span></div>
+          <div>
+            <strong id="review-count">0</strong><span>Awaiting review</span>
+          </div>
+        </section>
+        <div class="section-heading">
+          <h2>Task board</h2>
+          <span>Context stays with the work.</span>
+        </div>
+        <section
+          id="board"
+          class="board"
+          aria-label="Tasks by status"
+        ></section>
+        <section class="brand-records">
+          <div>
+            <h2>People & profiles</h2>
+            <div id="people"></div>
+          </div>
+          <div>
+            <h2>Accounts & agents</h2>
+            <div id="accounts"></div>
+          </div>
+        </section>
+      </main>
+    </div>
+    <dialog id="create-dialog">
+      <form id="create-form">
+        <div class="dialog-heading">
+          <h2>Create a task</h2>
+          <button type="button" class="close" aria-label="Close create task">
+            ×
+          </button>
+        </div>
+        <p class="hint">Choose the context this agent should use.</p>
+        <label
+          >Title<input
+            name="title"
+            required
+            maxlength="240"
+            placeholder="Draft a founder introduction post"
+        /></label>
+        <label
+          >Brief<textarea
+            name="brief"
+            required
+            rows="3"
+            placeholder="Describe the outcome and what a good result looks like."
+          ></textarea>
+        </label>
+        <div class="form-grid">
+          <label>Contact<select name="contact_id"></select></label
+          ><label>Audience profile<select name="profile_id"></select></label
+          ><label>Acting account<select name="account_id"></select></label
+          ><label>Agent<select name="agent_id"></select></label>
+        </div>
+        <label>Capability<select name="capability"></select></label>
+        <p class="hint">
+          An account reference identifies the intended account. It does not
+          connect or authorize publishing.
+        </p>
+        <button type="submit">Create task</button>
+      </form>
+    </dialog>
+    <dialog id="detail-dialog">
+      <div class="dialog-heading">
+        <span class="eyebrow">TASK DETAILS</span
+        ><button class="close" aria-label="Close task details">×</button>
+      </div>
+      <div id="task-detail"></div>
+    </dialog>
+    <div id="notice" role="status" aria-live="polite" hidden></div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "brands": [
+    {
+      "id": "cedar-studio",
+      "name": "Cedar Studio",
+      "voice": "Fictional design studio. Write clearly, warmly, and specifically. Use practical examples. Avoid hype and unsupported client results.",
+      "profiles": [{"id": "founders", "name": "Founder audience", "description": "Early-stage founders who need a clear brand and a useful website. Lead with practical decisions and examples."}],
+      "contacts": [{"id": "morgan", "name": "Morgan Example", "role": "Founder", "notes": "Fictional contact. Prefers concise updates and concrete next steps. No outreach is authorized by this record."}],
+      "accounts": [{"id": "cedar-linkedin", "name": "Cedar LinkedIn", "channel": "linkedin", "identity": "Cedar Studio demo page", "connection_ref": "demo-only-not-connected"}],
+      "agents": [
+        {"id": "cedar-writer", "name": "Cedar Writer", "capabilities": ["writing"]},
+        {"id": "cedar-researcher", "name": "Cedar Researcher", "capabilities": ["research"]}
+      ]
+    },
+    {
+      "id": "harbor-coaching",
+      "name": "Harbor Coaching",
+      "voice": "Fictional leadership coaching practice. Use a calm, thoughtful voice. Invite reflection. Avoid diagnosing people or making outcome guarantees.",
+      "profiles": [{"id": "people-leaders", "name": "People leaders", "description": "HR and people leaders investing in thoughtful leadership development. Use grounded, professional language."}],
+      "contacts": [{"id": "jordan", "name": "Jordan Example", "role": "People Director", "notes": "Fictional contact. Interested in manager development. A profile is background context, not consent to contact."}],
+      "accounts": [{"id": "harbor-linkedin", "name": "Harbor LinkedIn", "channel": "linkedin", "identity": "Harbor Coaching demo page", "connection_ref": "demo-only-not-connected"}],
+      "agents": [
+        {"id": "harbor-writer", "name": "Harbor Writer", "capabilities": ["writing"]},
+        {"id": "harbor-researcher", "name": "Harbor Researcher", "capabilities": ["research"]}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+# Optional: needed only to regenerate the Word brand document.
+python-docx==1.2.0
