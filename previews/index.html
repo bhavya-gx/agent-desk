@@ -1,0 +1,308 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Agent Desk — Three visual directions</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #f5f4f1;
+        color: #25272c;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      a {
+        color: inherit;
+      }
+      header,
+      main,
+      footer {
+        max-width: 1320px;
+        padding: 30px 36px;
+        margin: auto;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #deded8;
+        font-size: 13px;
+      }
+      header strong {
+        font-size: 21px;
+        letter-spacing: -0.8px;
+      }
+      header span {
+        font-size: 10px;
+        letter-spacing: 1px;
+        color: #6d6e73;
+      }
+      .intro {
+        padding: 42px 0 35px;
+        max-width: 770px;
+      }
+      .eyebrow {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+        color: #707278;
+      }
+      h1 {
+        font-size: 53px;
+        letter-spacing: -2px;
+        line-height: 1.06;
+        font-weight: 500;
+        margin: 18px 0;
+      }
+      p {
+        font-size: 15px;
+        line-height: 1.7;
+        color: #666a70;
+      }
+      .directions {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 23px;
+      }
+      .direction {
+        border: 1px solid #deded8;
+        border-radius: 12px;
+        overflow: hidden;
+        background: white;
+      }
+      .image-link {
+        display: block;
+        aspect-ratio: 1.35;
+        overflow: hidden;
+        border-bottom: 1px solid #deded8;
+        background: #edece9;
+      }
+      .image-link img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+        transition: transform 0.2s;
+      }
+      .image-link:hover img {
+        transform: scale(1.025);
+      }
+      .card-copy {
+        padding: 25px;
+      }
+      .number {
+        font-size: 10px;
+        letter-spacing: 1px;
+        color: #7b7d82;
+      }
+      .card-copy h2 {
+        font-size: 25px;
+        letter-spacing: -0.8px;
+        font-weight: 500;
+        margin: 11px 0;
+      }
+      .card-copy p {
+        font-size: 13px;
+        min-height: 66px;
+        line-height: 1.7;
+      }
+      .source {
+        font-size: 10px;
+        color: #767980;
+        margin: 15px 0 24px;
+      }
+      .open {
+        display: block;
+        text-decoration: none;
+        background: #252a32;
+        color: white;
+        padding: 15px;
+        border-radius: 6px;
+        font-size: 12px;
+        text-align: center;
+        min-height: 44px;
+      }
+      .tag {
+        font-size: 9px;
+        padding: 5px 7px;
+        background: #e9ede4;
+        color: #4f6347;
+        margin-left: 8px;
+        border-radius: 4px;
+        vertical-align: middle;
+      }
+      .note {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        margin-top: 38px;
+        border-top: 1px solid #deded8;
+        padding-top: 25px;
+      }
+      .note h3 {
+        font-size: 14px;
+        font-weight: 600;
+      }
+      .note p {
+        font-size: 12px;
+        line-height: 1.8;
+      }
+      .note a {
+        font-size: 12px;
+      }
+      footer {
+        font-size: 11px;
+        color: #777b81;
+        border-top: 1px solid #deded8;
+        line-height: 1.8;
+      }
+      a:focus-visible {
+        outline: 3px solid #4389f6;
+        outline-offset: 4px;
+      }
+      @media (max-width: 760px) {
+        header,
+        main,
+        footer {
+          padding: 24px;
+        }
+        .intro {
+          padding: 20px 0 25px;
+        }
+        h1 {
+          font-size: 39px;
+        }
+        .directions {
+          grid-template-columns: 1fr;
+          gap: 22px;
+        }
+        .image-link {
+          aspect-ratio: 1.5;
+        }
+        .card-copy p {
+          min-height: 0;
+        }
+        .note {
+          grid-template-columns: 1fr;
+          gap: 12px;
+        }
+        .card-copy {
+          padding: 22px;
+        }
+        header span {
+          font-size: 8px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        * {
+          transition: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <strong>Agent Desk.</strong
+      ><span>VISUAL EXPLORATION / NOVEMBER 2026</span>
+    </header>
+    <main>
+      <section class="intro">
+        <span class="eyebrow">THREE DIRECTIONS. ONE EVERYDAY DESK.</span>
+        <h1>A little help.<br />A lot more room to live.</h1>
+        <p>
+          Explore three ways Agent Desk could feel for people managing everyday
+          tasks with AI helpers. These are clickable design previews. No final
+          visual direction has been selected.
+        </p>
+      </section>
+      <section class="directions" aria-label="Three design previews">
+        <article class="direction">
+          <a class="image-link" href="01-focus.html"
+            ><img
+              src="images/01-focus.png"
+              alt="Focus: a dark, high-contrast task inbox beside a simple request box"
+          /></a>
+          <div class="card-copy">
+            <span class="number">01 / ROMA-INSPIRED</span>
+            <h2>Focus</h2>
+            <p>
+              A quiet, high-contrast inbox. A clear place to put a thought and
+              one next step to come back to.
+            </p>
+            <div class="source">
+              Bold type · task-first hierarchy · restrained accent
+            </div>
+            <a class="open" href="01-focus.html">Explore Focus →</a>
+          </div>
+        </article>
+        <article class="direction">
+          <a class="image-link" href="02-color.html"
+            ><img
+              src="images/02-color.png"
+              alt="Color: a friendly home with illustrated helpers and colorful areas of life"
+          /></a>
+          <div class="card-copy">
+            <span class="number">02 / PAPERCLIP-INSPIRED</span>
+            <h2>Color <span class="tag">Recommended</span></h2>
+            <p>
+              A friendly home for the different parts of your life. Useful
+              structure with a little more personality.
+            </p>
+            <div class="source">
+              Strong hierarchy · expressive helpers · clear areas
+            </div>
+            <a class="open" href="02-color.html">Explore Color →</a>
+          </div>
+        </article>
+        <article class="direction">
+          <a class="image-link" href="03-calm.html"
+            ><img
+              src="images/03-calm.png"
+              alt="Calm: a warm personal planner with a navy sidebar and simple progress summaries"
+          /></a>
+          <div class="card-copy">
+            <span class="number">03 / RETINUE-INSPIRED</span>
+            <h2>Calm</h2>
+            <p>
+              A familiar daily planner. See what is ready, what is moving, and
+              what needs a small answer from you.
+            </p>
+            <div class="source">
+              Warm surfaces · navy navigation · visible progress
+            </div>
+            <a class="open" href="03-calm.html">Explore Calm →</a>
+          </div>
+        </article>
+      </section>
+      <section class="note">
+        <div>
+          <h3>Designed for everyday people</h3>
+          <p>
+            Home, work, learning, and personal projects. Tasks come first; AI
+            helpers stay in the background. You can try adding a task, opening
+            its result, filtering an area, and reviewing a sample outcome.
+          </p>
+        </div>
+        <div>
+          <h3>What the previews actually do</h3>
+          <p>
+            All tasks and helpers are fictional. Interactions are held in this
+            browser tab and reset on reload. Nothing is connected, booked,
+            purchased, or sent. Original artwork and layouts; no competitor
+            logos or proprietary fonts are bundled.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      References: <a href="https://roma.app/brand">Roma brand guidelines</a> ·
+      <a href="https://paperclip.ing/brand/">Paperclip design system</a> ·
+      <a href="https://jklthinking.github.io/retinue/demo-en/?lang=en"
+        >Retinue public demo</a
+      >. These are the three products already discussed, not a verified market
+      ranking.
+    </footer>
+  </body>
+</html>

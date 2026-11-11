@@ -14,6 +14,8 @@ This is the owner's guide to the repository. A **repository** is the project plu
 | `examples/` | Public fictional configuration. | Lets anyone try the app without real client data. |
 | `tests/` | Automated behavior checks. | Catches broken boundaries and task transitions before release. |
 | `docs/` | Product, setup, brand, and owner documentation. | Explains both the intention and what currently works. |
+| `previews/` | Three isolated design concepts and their comparison page. | Lets the owner choose a consumer direction before changing the working app. |
+| `previews/images/` | Desktop and phone screenshots of each concept. | Provides a portable visual record of what was reviewed. |
 | `scripts/` | Optional authoring utilities. | Rebuilds the brand document from editable text. |
 | `.github/` | GitHub configuration. | Connects the repository to automated checks. |
 | `.github/workflows/` | Automation definitions. | Runs tests on pushes and pull requests. |
@@ -69,7 +71,28 @@ This is the owner's guide to the repository. A **repository** is the project plu
 | `docs/brand-one-page.docx` | The formatted Word brand brief, generated from `brand.md`. |
 | `docs/naming.md` | The selected Agent Desk name, earlier shortlist, competitor comparison, and an existing-name collision. |
 | `docs/product-concepts.md` | Three proposed product adaptations, the operator reports behind them, current pilot coverage, and ways to validate each concept. |
+| `docs/consumer-direction.md` | The everyday-person audience, plain-language positioning, and required product changes beyond a visual redesign. |
+| `docs/visual-directions.md` | Direct competitor observations, three original adaptations, tradeoffs, and instructions to view the previews. |
 | `scripts/build_brand_doc.py` | Converts the brand Markdown paragraphs into a formatted Word document. Run after installing `requirements-docs.txt`. |
+
+## Design preview files
+
+These do not call the application API or contain private records. Their example state lives only in the current browser tab and resets on reload.
+
+| File | What it does |
+| --- | --- |
+| `previews/index.html` | The comparison gallery, with a thumbnail and link to each direction. |
+| `previews/01-focus.html` | Opens the dark, task-first Focus direction. |
+| `previews/02-color.html` | Opens the expressive personal-home Color direction. |
+| `previews/03-calm.html` | Opens the warm daily-planner Calm direction. |
+| `previews/preview.css` | Shared components, three separate visual systems, mobile layouts, focus indicators, and reduced-motion styling. |
+| `previews/preview.js` | Draws the three layouts and fictional tasks; supports adding, filtering, opening, and reviewing examples. It starts no agent. |
+| `previews/images/01-focus.png` | Full desktop screenshot of Focus. |
+| `previews/images/02-color.png` | Full desktop screenshot of Color. |
+| `previews/images/03-calm.png` | Full desktop screenshot of Calm. |
+| `previews/images/01-focus-mobile.png` | Focus at a 390-pixel phone width. |
+| `previews/images/02-color-mobile.png` | Color at a 390-pixel phone width. |
+| `previews/images/03-calm-mobile.png` | Calm at a 390-pixel phone width. |
 
 ## Private generated files
 

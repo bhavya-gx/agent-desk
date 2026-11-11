@@ -1,5 +1,9 @@
 # Pilot roadmap
 
+## Audience and visual review
+
+The owner requested an everyday-person direction after the original brand-work pilot. [The consumer brief](consumer-direction.md) reframes the interface around personal tasks and AI helpers; [three visual previews](visual-directions.md) await selection. A consumer release requires simpler onboarding, verified agent/account connections, and a personal-space model as well as the chosen visual design. The working app and earlier integration milestones below remain the implementation baseline.
+
 ## Shipped in 0.1
 
 Public MIT repository, browser board, fictional two-brand configuration, persistent tasks and event history, scoped API access, portable Claude skill, and one-way Paperclip dispatch. Automated tests cover boundaries and the connector's HTTP contract.

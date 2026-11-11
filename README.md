@@ -4,6 +4,8 @@
 
 **Status: working local pilot, not a production SaaS.** This MIT repository was public before implementation began. The owner selected Agent Desk on November 11, 2026.
 
+**New direction under review:** [Agent Desk for everyday people](docs/consumer-direction.md), with [three researched visual previews](docs/visual-directions.md). Explore Focus, Color, and Calm before selecting the final design. The working pilot below still uses its original brand-based model.
+
 ## What works now
 
 - A browser dashboard with separate brands, contacts, audience profiles, and account references.
@@ -42,9 +44,11 @@ The suite covers brand/account boundaries, ownership, concurrent claims, review 
 - [Every folder and file](docs/project-map.md): a plain-language tour.
 - [How it works](docs/architecture.md): data flow, access boundaries, and limitations.
 - [Setup](docs/setup.md): local service, private configuration, and agent connections.
-- [One-page brand document](docs/brand-one-page.docx) and [editable text](docs/brand.md).
+- [Initial one-page brand document](docs/brand-one-page.docx) and [editable text](docs/brand.md): the original brand-work pilot; the new consumer brief above guides the audience redesign.
 - [Naming decision and competitor comparison](docs/naming.md).
 - [Three product concepts](docs/product-concepts.md): adaptations of reported operator problems, with sources and validation plans.
+- [Everyday-person direction](docs/consumer-direction.md) and [visual comparison](docs/visual-directions.md): the next audience and three designs awaiting selection.
+- [Preview gallery](previews/index.html): isolated, clickable concepts; see the visual comparison for the local viewing command.
 - [Roadmap](docs/roadmap.md): what is shipped and what comes next.
 - [License](LICENSE): MIT permission to use, modify, and share the code.
 

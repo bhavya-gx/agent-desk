@@ -43,3 +43,13 @@ Recorded that a separate open-source configuration manager already uses the Agen
 Added `docs/product-concepts.md` with three proposals: Client Desks, Results Inbox, and Work-triggered Agents. Each has a public evidence link, a specific operator workflow, the pilot's existing coverage, missing work, and a validation plan. Distinguished individual Paperclip reports from proven product-wide limitations; Roma and Retinue documentation is not represented as customer complaints. Linked the concepts from the README and roadmap and added the new file to the project map. No proposed execution features were implemented in this naming/research update.
 
 Verification: all 22 existing tests passed. Rebuilt the editable Word brief, rendered and visually inspected its single page. Reloaded the local browser app and verified the Agent Desk title and wordmark with the existing fictional task still present.
+
+## 2026-11-11 — Everyday-person audience and three visual previews
+
+Explained that the original olive/green direction was a provisional design judgment, not a researched or owner-selected identity. Inspected Roma's and Paperclip's live homepages and published brand guides, plus Retinue's public neutral-theme demo. Recorded observed design principles separately from our adaptations and did not describe these references as a verified market top three.
+
+Added a consumer direction brief centered on personal tasks, life areas, and AI helpers. Created three isolated, original HTML/CSS/JavaScript previews: Focus (Roma-inspired hierarchy), Color (Paperclip-inspired structure and expressive helpers), and Calm (Retinue-inspired visible progress). Added a gallery, desktop and phone screenshots, and a detailed visual comparison. The previews include fictional task capture, area filtering, results, and review interactions in tab memory only.
+
+Visually inspected each desktop and 390-pixel phone layout. Checked task creation, filtering, result review, the helper explanation dialog, and Escape dismissal. Fixed missing word spacing in the mobile Calm heading and made summary counts reflect the current preview tasks. The actual application and final brand identity are awaiting the owner's design selection; these files are clearly labeled explorations.
+
+Final checks: all 22 application tests passed; preview JavaScript syntax and local Markdown links passed. Formatted preview sources for readability. Verified the comparison gallery renders all three screenshots and opens each direction. Phone layouts had no horizontal overflow at 390 pixels. Temporary viewport changes were reset after review.
